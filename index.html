@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Billing System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Telephone Billing System</h1>
+    </header>
+
+    <main>
+        <section id="billing-info">
+            <h2><center><font color="white"><u>Billing Information</u></font></center></h2>
+            <font color="white"><form id="billing-form">
+                <input type="text" placeholder= "Customer Name" required>
+                <input type="number" placeholder="+91-Phone Number" required>
+                <input type="number" placeholder="Call Duration (mins)" required>
+                <select name="Company Name">
+                    <option value="Jio">Jio</option>
+                    <option value="Vi">Vi</option>
+                    <option value="Airtel">Airtel</option>
+                </select>
+                <select name="callType">
+                    <option value="local">Local</option>
+                    <option value="international">International</option>
+                </select>
+                <button type="submit">Calculate Bill</button>
+            </form>
+            </font>
+
+            <center><u><b><div id="bill-result"></div></b></u></center>
+            <p><center><font color="white">Scan This QR For Payment Bill</font></center></p>
+            <center><img src="QR.png" alt="QR Code for Payment" style="width: 150px; height: 150px;">
+        </center>
+        </section>
+    </main>
+
+    <footer>
+        <p><font color="white"><center>&copy; 2024 Telephone Billing System</center></font></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

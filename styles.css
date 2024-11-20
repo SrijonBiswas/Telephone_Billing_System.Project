@@ -1,0 +1,54 @@
+body {
+    height: 100vh; 
+    background-image: url('StockCake-Iconic\ Red\ Booth_1732111149.jpg');
+    background-size: 2500px 1000px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    
+    padding: 5px;
+    text-align: center;
+    width: calc(50%-20px);
+    background: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px ;
+}
+
+input::placeholder{
+    color:white;
+}
+
+input, select {
+    width: calc(50% - 20px);
+    color:white;
+    padding: 10px;
+    background: none;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 85%;
+    padding: 10px;
+    text-align: center;
+    color: blacks;
+    border: none;
+    border-radius: 5px;
+}
+
+#bill-result {
+    margin-top: 50px;
+    color: whitesmoke;
+}
